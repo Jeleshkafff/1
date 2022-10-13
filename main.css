@@ -1,0 +1,164 @@
+html {
+  font-family: "Noto Sans Mono", monospace;
+  background-color: #08081d;
+  color: aliceblue;
+}
+
+.modal-div {
+  color: #08081d;
+}
+.inp {
+  display: none;
+  padding-left: 5px;
+  /* margin-left: 25%; */
+  /* padding-bottom: 10px; */
+  font-family: "Noto Sans Mono", monospace;
+  margin-bottom: 20px;
+  border: 2px solid #1900ff8a;
+  border-radius: 50px;
+}
+.inp1 {
+  border-radius: 20px;
+  font-family: "Noto Sans Mono", monospace;
+  display: flex;
+  flex-flow: column wrap;
+  width: 200px;
+  margin-top: 2%;
+  border: 6px double #3822ff;
+  padding: 10px 10px;
+  background-color: #9c5eff49;
+}
+
+.why,
+.sum,
+.code,
+.save,
+.acept,
+.dAsept,
+.inputAcceptCodWord,
+.select-category,
+.Sample {
+  color: aliceblue;
+  background-color: #03030ad5;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  /* margin-left: 25%; */
+  font-family: "Noto Sans Mono", monospace;
+  border: 2px solid #0c007a8a;
+  border-radius: 50px;
+}
+.btn {
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans Mono", monospace;
+  border: 2px solid #0900578a;
+  background-color: #02001d8a;
+  color: aliceblue;
+}
+.btnEX {
+  border-radius: 50px;
+  margin-bottom: 20px;
+  font-family: "Noto Sans Mono", monospace;
+  border: 2px solid #00013d8a;
+  background-color: #0300298a;
+  color: aliceblue;
+}
+.NAme {
+  display: none;
+  text-align: center;
+}
+.cute {
+  margin-left: 40%;
+  width: 50px;
+  height: 50px;
+}
+
+.modal-wrap {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-div {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3%;
+}
+.modal-div {
+  display: flex;
+}
+.closeForm {
+  position: absolute;
+  top: 20px;
+  left: 450px;
+}
+.sing {
+  margin-top: -20%;
+  margin-left: 85%;
+
+  /* display: none; */
+}
+.btnSignUp {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-family: "Noto Sans Mono", monospace;
+  border: 2px solid #0099ff8a;
+  background-color: #02001d8a;
+}
+.btnSignIn {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-family: "Noto Sans Mono", monospace;
+  border: 2px solid #0099ff8a;
+  background-color: #02001d8a;
+  /* display: none; */
+}
+.ulTransactions {
+  margin-left: 64%;
+  list-style-type: none;
+}
+.li {
+  margin-right: 10px;
+  border-radius: 20px;
+  border: 2px solid #0099ff8a;
+}
+.buttonCancelFrom,
+.buttonAcceptTo,
+.buttonCancelTo,
+.admin {
+  font-family: "Noto Sans Mono", monospace;
+  border-radius: 20px;
+  border: 2px solid #0099ff8a;
+  background-color: #02001d8a;
+  color: aliceblue;
+  margin-right: 10px;
+}
+.stat {
+  display: none;
+}
+.closeForm {
+  display: none;
+}
+.Cate {
+  margin-top: 20px;
+  width: 30%;
+  padding-left: 30px;
+  border-radius: 20px;
+  border: 2px solid #0099ff8a;
+}
